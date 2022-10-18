@@ -1,6 +1,6 @@
 import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
 import { useDispatch } from "react-redux";
-import { getPosts } from "./actions/posts";
+import { getPosts } from "./redux/actions/posts";
 import memories from "./images/memories.png";
 import Form from "./components/form/Form";
 import Posts from "./components/posts/Posts";
@@ -32,7 +32,7 @@ const App = () => {
         <Container>
           <Grid
             container
-            justify="space-between"
+            justifyContent="space-between"
             alignItems="stretch"
             spacing={3}
           >

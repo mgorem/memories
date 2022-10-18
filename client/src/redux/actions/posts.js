@@ -1,4 +1,4 @@
-import * as api from "../api";
+import * as api from "../../api";
 
 // Action Creators - functions that return actions
 // actions - objects with a type and payload
